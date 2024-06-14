@@ -43,10 +43,6 @@ const selectedOption = ref([weightBig, weightSmall]);
         </h1>
         <ScrollPicker :options="options" v-model="selectedOption" />
       </div>
-      <!-- <div>
-        <span>汪汪队长</span>
-        <input type="number" name="weight" id="dog">
-      </div> -->
     </div>
   </main>
 </template>
